@@ -1,49 +1,65 @@
-# SyriaTel Customer Churn Prediction
+# Customer Churn Prediction Project
+## Overview
 
-## 📌 Overview
-This project develops a machine learning classification model to predict customer churn for **SyriaTel**.
+This project builds a machine learning model to predict customer churn using historical telecom customer data. The goal is to identify customers who are likely to leave so that proactive retention strategies can be applied.
 
-## 🎯 Objective
-Identify customers likely to churn in order to reduce revenue loss through proactive retention strategies.
+The notebook covers the full workflow including data exploration, preprocessing, model training, and evaluation.
+## Objectives
 
----
+* Analyze customer behavior data
+* Prepare and preprocess features for modeling
+* Train a classification model to predict churn
+* Evaluate model performance with appropriate metrics
+* Provide a baseline model for further improvement
+## Dataset
+The dataset contains customer-level information such as:
 
-## 🛠 Methodology
-- Business Understanding  
-- Data Exploration  
-- Data Cleaning  
-- Feature Engineering  
-- Logistic Regression Modeling  
+* Usage statistics
+* Service plan features
+* Customer support interactions
+* Account attributes
+* Churn label (target variable)
+## Methods
 
-### 📊 Model Evaluation
-- Accuracy  
-- Precision  
-- Recall  
-- F1 Score  
-- AUC  
+The project follows these steps:
 
----
+1. Data loading and inspection
+2. Exploratory data analysis
+3. Data cleaning and preprocessing
+4. Feature encoding and scaling
+5. Train/test split
+6. Model training (Logistic Regression baseline)
+7. Model evaluation using classification metrics
+## Tools and Libraries
 
-## 🔎 Key Findings
-- **Accuracy:** 86%  
-- **Recall (Churn Class):** 27%  
-- The model detects some churners but requires improvement.  
-- Customer service calls and international plan strongly influence churn.
+* Python
+* pandas
+* numpy
+* scikit-learn
+* matplotlib
+* seaborn
+## How to Run
 
----
+1. Open the Jupyter notebook file.
+2. Install dependencies if needed:
+   ```bash
+   pip install pandas numpy scikit-learn matplotlib seaborn
+   ```
+3. Ensure the dataset file is in the correct directory.
+4. Run the notebook cells in order.
 
-## 💼 Business Recommendations
-To improve recall and overall model performance:
-- Threshold tuning  
-- Advanced ensemble models  
-- Imbalance handling techniques  
+## Results
 
----
+The project produces a baseline churn prediction model and evaluation metrics. The results can be used to guide future model improvements and deployment.
 
-## 🧰 Technologies Used
-- Python  
-- Pandas  
-- NumPy  
-- Scikit-learn  
-- Matplotlib  
-- Seaborn  
+## Future Improvements
+* Try additional machine learning models
+* Perform hyperparameter tuning
+* Add cross-validation
+* Apply class imbalance techniques
+* Create a deployment-ready prediction pipeline
+
+## Author
+Ateka JM
+
+Add your name and details here.
